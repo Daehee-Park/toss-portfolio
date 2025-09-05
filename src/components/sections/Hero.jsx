@@ -36,7 +36,7 @@ export default function Hero() {
               
               {/* Main Description */}
               <div className="space-y-2 sm:space-y-4 mb-6">
-                {['구조해석과', '디지털 혁신을 통한', '제품 개발 전문가'].map((text, index) => (
+                {['AI/ML을 실제 비즈니스에 적용하는', 'Backend Engineer', '& Digital Innovation Leader'].map((text, index) => (
                   <motion.p 
                     key={index}
                     className="text-2xl sm:text-3xl lg:text-4xl font-bold bg-gradient-to-r from-blue-500 to-purple-500 text-transparent bg-clip-text leading-tight"
@@ -68,7 +68,7 @@ export default function Hero() {
               animate={{ opacity: 1 }}
               transition={{ duration: 0.8, delay: 1.4 }}
             >
-              LG Electronics TV CAE Team | DX 확산 리더
+              LG Electronics | Python Backend & ML Engineering Leader
             </motion.h3>
 
             <motion.div 

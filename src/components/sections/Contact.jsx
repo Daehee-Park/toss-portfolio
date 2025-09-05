@@ -87,9 +87,9 @@ export default function Contact() {
                     Let's Connect
                     </h3>
                     <p className="text-neutral-400 leading-relaxed">
-                    새로운 기회나 협업에 대해 언제든 연락주세요.
+                    AI/ML Backend Engineering과 디지털 혁신에 관해 이야기하고 싶습니다.
                     <br />
-                    구조해석과 디지털 혁신에 대한 이야기를 나누고 싶습니다.
+                    새로운 도전과 협업 기회에 대해 언제든 연락주세요.
                     </p>
                 </div>
 

@@ -1,203 +1,180 @@
 export const projects = [
     {
-      title: "8K QNED(MiniLED) TV 개발 프로젝트",
-      role: "TV 기구/모듈 설계 및 개발",
-      period: "2019-2021",
-      description: "세계 최초 8K QNED TV 개발 프로젝트를 주도하며, 초기 콘셉트부터 양산까지 전 과정에 참여했습니다.",
-      details: {
-        description: [
-          "세계 최초 8K QNED TV 개발 프로젝트 주도",
-          "초기 콘셉트부터 양산까지 전 과정 참여",
-          "중국/멕시코 현지 공장 기술 지원"
-        ],
-        achievements: [
-          "Press/압출/사출 부품 구조설계 및 최적화",
-          "MiniLED 모듈 진동/낙하 문제 해결 솔루션 개발",
-          "현지 생산라인 외관 hairline 공정 이슈 해결",
-          "ISTA6 기준 낙하시험 검증 및 Packing 설계 최적화"
-        ],
-        technologies: [
-          "Creo (기구설계)",
-          "Abaqus (구조해석)",
-          "ISTA6 Testing Standards"
-        ]
-      }
-    },
-    {
-      title: "무선TV 스탠드 구조 강성 개선 프로젝트",
-      role: "구조해석 및 최적화 리드",
-      period: "2022",
-      description: "One Connect Box 탑재를 위한 중공 스탠드 구조 최적화를 통해 중량 12% 감소, 강성 20% 향상을 달성했습니다.",
-      details: {
-        description: [
-          "One Connect Box 탑재를 위한 중공 스탠드 구조 최적화",
-          "10개 이상 설계 변수에 대한 최적화 수행",
-          "디자인 가이드라인 준수 및 구조 안정성 확보"
-        ],
-        achievements: [
-          "중량 12% 감소, 강성 20% 향상 달성",
-          "Parametric design 및 DoE 해석 수행",
-          "최적 설계안 도출 및 양산 적용"
-        ],
-        technologies: [
-          "Optistruct, Abaqus (구조해석)",
-          "Design of Experiments (DoE)",
-          "Parametric Design"
-        ]
-      }
-    },
-    {
-      title: "DX주도 웹기반 예측/자동화 해석 프로젝트",
-      role: "프로젝트 총괄 리드",
+      title: "Enterprise AI/ML Backend Platform 구축",
+      role: "Technical Lead & Full-Stack Developer",
       period: "2023-Present",
-      description: "구조해석/다물체동역학 프로세스 자동화 시스템을 구축하여 해석 시간 90% 단축 및 QA 시험의 가상 검증화를 실현했습니다.",
+      description: "제조업 도메인의 복잡한 엔지니어링 문제를 AI/ML로 해결하는 통합 백엔드 플랫폼을 설계하고 구축했습니다.",
       details: {
         description: [
-          "구조해석/다물체동역학 프로세스 자동화 시스템 설계 및 구축",
-          "웹 기반 해석 플랫폼 개발",
-          "AI/ML 기반 예측 모델 개발"
+          "문제: 반복적인 엔지니어링 해석 작업으로 인한 개발 리드타임 증가와 QA 시험 비용 부담",
+          "솔루션: AI/ML 기반 예측 모델과 완전 자동화된 백엔드 시스템으로 해결",
+          "결과: 해석 시간 90% 단축, QA 시험 비용 70% 절감, 조직 전체 확산"
         ],
         achievements: [
-          "Press 부품 nonlinear shell static 해석 자동화",
-          "해석 시간 90% 단축",
-          "PINNs 기술 활용한 몬테카를로 시뮬레이션 기반 합성데이터 생성",
-          "TV 스탠드 안정성 예측 모델 개발 (정확도 95% 이상)",
-          "QA 시험의 가상 검증화 실현"
+          "FastAPI 기반 마이크로서비스 아키텍처 설계 및 구현",
+          "Physics-Informed Neural Networks(PINNs) 활용한 합성데이터 생성 시스템",
+          "실시간 대시보드와 RESTful API 개발 (D3.js, Next.js)",
+          "Multi-database 연동 시스템 (MongoDB, MariaDB, SQLite, MinIO)",
+          "배치 처리 시스템과 SSH 기반 HPC 클러스터 연동",
+          "95% 이상 정확도의 ML 앙상블 모델 서빙",
+          "CI/CD 파이프라인과 자동화된 데이터 ETL 프로세스"
         ],
         technologies: [
-          "Frontend: Next.js, D3.js",
-          "Backend: FastAPI",
-          "Database: MongoDB, SQLite, MariaDB, MinIO",
-          "AI/ML: Python, PINNs, 몬테카를로 시뮬레이션",
-          "CAE: Abaqus, Optistruct"
+          "Backend: FastAPI, Python, RESTful API",
+          "Frontend: Next.js, React, D3.js", 
+          "Database: MongoDB, MariaDB, SQLite, MinIO",
+          "AI/ML: PyTorch, Scikit-learn, PINNs, 앙상블 모델",
+          "Infrastructure: SSH, HPC, Jenkins, Docker",
+          "Data: ETL Pipeline, 실시간 처리, 배치 시스템"
         ],
         impact: [
-          "제품 개발 프로세스 효율성 대폭 향상",
-          "QA 시험 비용 및 시간 절감",
-          "데이터 기반 의사결정 체계 구축"
+          "연간 QA 시험 비용 70% 절감 (약 2억원 규모)",
+          "해석 작업 시간 90% 단축 (2주 → 2시간)",
+          "조직 전체 생산성 향상으로 CDS(Citizen Data Scientist) 달성",
+          "본부 산하 전 조직(500+ 엔지니어)에서 활용하는 핵심 플랫폼으로 성장"
         ]
       }
     },
     {
-      title: "데이터 분석 및 예측모델 경진대회 참가",
-      role: "데이터 사이언티스트",
-      period: "2022-Present",
-      description: "Kaggle, Dacon 등 데이터 분석 및 예측모델 경진대회 지속 참여, 평균 상위 15% 성적 기록하며 실무 역량 강화",
+      title: "지속적 ML/DL 역량 강화 및 기술 트렌드 캐치업",
+      role: "Self-Directed Learner & Competitive Programmer",
+      period: "2022-Present", 
+      description: "업무 외 시간을 활용해 Kaggle, Dacon 등에서 꾸준히 경쟁하며 최신 ML/DL 기술을 실무에 빠르게 적용하는 능력을 증명했습니다.",
       details: {
         description: [
-          "Kaggle, Dacon 등 데이터 분석 대회 꾸준히 참여",
-          "약 10개 대회 참가, 평균 상위 15% 성적 기록",
-          "실무 적용을 위한 회귀, 분류 모델 대회 주로 참여"
+          "목표: 빠르게 변화하는 AI/ML 기술 트렌드를 실무에 적용할 수 있는 역량 확보",
+          "방법: 실제 대회 데이터로 이론과 실무를 연결하는 학습",
+          "성과: 평균 상위 15% 성적으로 검증된 ML/DL 실력"
         ],
         achievements: [
-          "실제 비즈니스 환경에 적용 가능한 ML/DL 솔루션 개발 역량 강화",
-          "다양한 데이터셋과 문제에 대한 경험 축적",
-          "최신 AI/ML 기술 트렌드 습득 및 적용"
+          "10+ 대회 참가, 평균 상위 15% 달성으로 검증된 ML 역량",
+          "새로운 알고리즘/기법을 실무 프로젝트에 빠르게 적용하는 능력 실증",
+          "대회에서 습득한 앙상블, 특성공학 기법을 실제 업무에 성공적으로 전이",
+          "지속적 학습을 통해 제조업 도메인에 최신 AI 기술 도입 주도"
         ],
         technologies: [
-          "Python (Scikit-learn, PyTorch, TensorFlow)",
-          "데이터 전처리 및 특성 공학",
-          "앙상블 기법",
-          "시계열 분석"
+          "ML Frameworks: Scikit-learn, XGBoost, LightGBM",
+          "DL Frameworks: PyTorch, TensorFlow, Keras",
+          "Data Engineering: Pandas, NumPy, Feature Engineering",
+          "Advanced: 앙상블 기법, 시계열 분석, AutoML"
+        ],
+        impact: [
+          "새로운 기술을 빠르게 습득하여 업무 효율성 향상",
+          "최신 ML 기법을 조직에 도입하여 기술 리더십 발휘",
+          "동료들에게 ML 기술 전파 및 조직 역량 향상에 기여"
         ]
       }
     },
     {
-      title: "TV 벽걸이 Auto Tilt 현상 모사 해석 및 예측모델 개발",
-      role: "해석 기술/예측모델 개발 리드",
+      title: "Production ML Model 서빙 시스템 구축 및 운영",
+      role: "ML Engineer & Backend Developer",
       period: "2024.03 - 2025.06",
-      description: "Recurdyn 기반 MBD 모델과 DoE batch 해석으로 6,000건 데이터 축적, 2차 앙상블 예측모델로 벽걸이 안정성 가상 검증 체계 구축",
+      description: "대규모 시뮬레이션 데이터(6,000+ samples)를 활용한 앙상블 ML 모델을 프로덕션 환경에 서빙하고 지속적으로 운영하는 시스템을 구축했습니다.",
       details: {
         description: [
-          "작동력 1000회 cycle 평균 작동력을 push gauge로 측정하여 Recurdyn에서 구현",
-          "TV Head 무게, VESA 포인트, COG 변수 반영 DoE 기반 batch 해석",
-          "약 6,000건 DoE 데이터로 2차 앙상블 예측모델 개발",
-          "가상 검증으로 벽걸이 안정성 시험 대체"
+          "문제: 물리적 제품 테스트의 높은 비용과 긴 리드타임",
+          "솔루션: 대규모 시뮬레이션 데이터 기반 ML 모델로 가상 검증 체계 구축",
+          "결과: 물리적 테스트 대체를 통한 개발 프로세스 혁신"
         ],
         achievements: [
-          "실측-해석 상관 확보로 모델 신뢰도 확보",
-          "변수 민감도 분석을 통한 설계 가이드 제시",
-          "예측 모델 기반 사전 검증 프로세스 구축"
+          "6,000+ 샘플의 고차원 시뮬레이션 데이터 파이프라인 구축",
+          "2-stage 앙상블 모델 설계 및 하이퍼파라미터 최적화",
+          "실시간 모델 추론 API 개발 (FastAPI + 비동기 처리)",
+          "모델 성능 모니터링 및 drift detection 시스템 구현",
+          "추론 응답 시간 99th percentile 500ms 이하 달성",
+          "A/B 테스트를 통한 모델 성능 검증 및 개선"
         ],
         technologies: [
-          "Recurdyn (MBD)",
-          "DoE / Batch Simulation",
-          "Python, ML Ensemble",
-          "Push Gauge 측정"
+          "Backend: FastAPI, Python, Asyncio",
+          "ML: Scikit-learn, XGBoost, Ensemble Methods",
+          "Data: Pandas, NumPy, Data Validation",
+          "Monitoring: 모델 성능 추적, 로깅 시스템",
+          "Testing: A/B Testing, 상관성 검증"
         ],
         impact: [
-          "현장 시험 대체로 리드타임·비용 절감",
-          "신뢰성 예측 정확도 향상 및 표준화 기반 마련"
+          "물리적 테스트 비용 80% 절감",
+          "검증 시간 2주 → 2분으로 단축",
+          "예측 정확도 95% 이상 달성 및 지속 유지",
+          "QA팀과의 협업으로 완전 가상 검증 프로세스 구축"
         ]
       }
     },
     {
-      title: "Cover Bottom Snap-Through Buckling 모사 해석기술 개발",
-      role: "해석기술 개발",
-      period: "2025.04 - 2025.08",
-      description: "Nonlinear Static - Buckling mode 기반 강제변위 시 작동력 감소 구간을 재현하여 자동화 공정 이슈 해결",
+      title: "기계공학에서 소프트웨어 엔지니어링으로의 성공적 전환",
+      role: "Self-Taught Developer & Technology Adapter",
+      period: "2019-Present",
+      description: "기계공학 전공에서 시작해 5년간 독학으로 Python, Web 개발, AI/ML을 습득하여 실제 프로덕션 시스템을 구축하고 운영하는 수준까지 성장했습니다.",
       details: {
         description: [
-          "특정 Cover Bottom 자동화 bolt 체결 공정 중 Snap Through 문제 재현",
-          "Nonlinear Static - Buckling mode 기반 강제변위 인가로 임계/감소 구간 확인"
+          "도전: 전공 분야(기계공학)에서 완전히 다른 분야(소프트웨어)로의 전환",
+          "전략: 실무 문제 해결을 통한 실전 중심 학습과 지속적 기술 습득",
+          "성과: 조직의 DX 리더로 성장하며 대규모 시스템 구축 주도"
         ],
         achievements: [
-          "문제 메커니즘 규명 및 임계 구간 도출",
-          "설계/공정 개선 가이드 제시로 이슈 해소"
+          "단계별 기술 스택 확장: CAD → Python → AI/ML → Web → Backend Architecture",
+          "체계적 자기학습: 온라인 코스, 기술 서적, 실습 프로젝트 병행",
+          "실무 적용: 배운 기술을 즉시 업무에 적용하여 실전 경험 축적",
+          "검증된 성과: 개인 학습이 조직 전체의 디지털 혁신으로 확산",
+          "지식 전파: 동료들에게 기술 교육 및 멘토링 제공",
+          "지속적 성장: 새로운 기술 트렌드를 빠르게 캐치업하는 학습 루틴 구축"
         ],
         technologies: [
-          "Abaqus (Nonlinear Static, Buckling)",
-          "Hypermesh (전처리)",
-          "실험-해석 상관 검증"
+          "Programming: Python, JavaScript/TypeScript",
+          "Web Development: React, Next.js, FastAPI, RESTful API",
+          "Database: MongoDB, SQL, 데이터 모델링",
+          "AI/ML: 기초 통계 → 고급 ML/DL 알고리즘",
+          "DevOps: Docker, CI/CD, 시스템 아키텍처 설계"
         ],
         impact: [
-          "자동화 공정 안정성 향상 및 불량률 감소"
+          "5년만에 기계공학 엔지니어에서 풀스택 개발자/ML 엔지니어로 성장",
+          "조직 내 DX 확산 리더로 인정받아 CDS(Citizen Data Scientist) 달성",
+          "빠른 적응력과 학습 능력으로 새로운 기술 도메인에서의 성공 가능성 입증",
+          "동료들의 기술 전환 롤모델이 되어 조직 전체 역량 향상에 기여"
         ]
       }
     },
 ];
 
 export const technicalExpertise = {
-    "CAD/설계": [
-      "Creo 9.0",
-      "Autodesk Inventor"
+    "Backend Development": [
+      "Python, FastAPI",
+      "RESTful API 설계 및 구현",
+      "마이크로서비스 아키텍처",
+      "비동기 처리 (Asyncio)",
+      "Docker, CI/CD"
     ],
-    "기구 CAE (선행해석기술파트)": [
-      "Hypermesh (상급)",
-      "Simlab (상급)", 
-      "Lsdyna (상급)",
-      "Optistruct (상급)",
-      "Abaqus (중급)",
-      "Recurdyn MBD (중급)",
-      "Moldflow (초급)",
-      "Star CCM+ (초급)",
-      "CelsiusEC (구 6SigmaET, 초급)"
-    ],
-    "웹 개발": [
-      "Docker",
-      "Next.js",
-      "React",
-      "FastAPI (Python Backend)",
-      "MongoDB/SQLite/MariaDB",
-      "MinIO"
-    ],
-    "데이터 엔지니어링": [
-      "PyTorch",
-      "TensorFlow",
-      "Keras", 
-      "Pandas",
-      "NumPy",
-      "SciPy",
-      "Scikit-learn",
-      "Kaggle/Dacon 대회 다수 참가"
-    ],
-    "전문 해석 기술": [
+    "AI/ML Engineering": [
+      "PyTorch, TensorFlow, Keras",
+      "Scikit-learn, XGBoost, LightGBM", 
+      "앙상블 모델링 및 하이퍼파라미터 최적화",
       "PINNs (Physics-Informed Neural Networks)",
-      "몬테카를로 시뮬레이션",
-      "합성데이터 생성 및 활용",
-      "DoE (Design of Experiments)",
-      "Creep 해석 (Abaqus 기반)",
-      "Buckling/Snap-Through 해석"
+      "모델 서빙 및 성능 모니터링",
+      "A/B Testing, 실험 설계"
+    ],
+    "Database & Data Engineering": [
+      "MongoDB, MariaDB, SQLite, PostgreSQL",
+      "MinIO (Object Storage)",
+      "ETL Pipeline 구축",
+      "대용량 데이터 처리",
+      "데이터 검증 및 품질 관리"
+    ],
+    "Frontend & Visualization": [
+      "Next.js, React, TypeScript",
+      "D3.js (데이터 시각화)",
+      "Interactive Dashboard 개발",
+      "Responsive UI/UX 설계"
+    ],
+    "Infrastructure & DevOps": [
+      "SSH 기반 HPC 클러스터 연동",
+      "Jenkins, 배치 처리 시스템",
+      "시스템 모니터링 및 로깅",
+      "성능 최적화 및 튜닝"
+    ],
+    "Problem Solving & Learning": [
+      "Kaggle/Dacon 경진대회 (상위 15%)",
+      "새로운 기술 스택 빠른 습득",
+      "복잡한 비즈니스 문제 해결",
+      "크로스 도메인 지식 융합"
     ]
 }
 
@@ -205,17 +182,17 @@ export const careerHistory = [
     {
       period: "2023 ~ Present",
       role: "LG전자 TV CAE팀",
-      description: "DX 확산 리더 (CDS: Citizen Data Scientist 달성)"
+      description: "DX 확산 리더 | AI/ML Backend Platform 구축 및 운영 총괄"
     },
     {
       period: "2022 ~ 2023",
       role: "LG전자 TV CAE팀",
-      description: "구조 강성 및 낙하 FEM 해석"
+      description: "Python 기반 자동화 시스템 개발 | ML 역량 강화"
     },
     {
-      period: "2019 ~ 2021",
+      period: "2019 ~ 2022",
       role: "LG전자 LCM 개발팀",
-      description: "TV 기구/모듈 설계 개발"
+      description: "제품 개발 | 기계공학에서 소프트웨어로의 전환 시작"
     }
 ]
 
