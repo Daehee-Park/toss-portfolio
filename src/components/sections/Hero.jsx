@@ -78,16 +78,16 @@ export default function Hero() {
               transition={{ duration: 0.8, delay: 1.6 }}
             >
               <button 
+                onClick={() => scrollToSection('about')}
+                className="w-full sm:w-auto px-6 py-3 border border-neutral-700 rounded-full hover:border-blue-500 transition-all text-lg"
+              >
+                About Me
+              </button>
+              <button 
                 onClick={() => scrollToSection('projects')}
                 className="w-full sm:w-auto px-6 py-3 bg-blue-500 rounded-full hover:bg-blue-600 transition-all text-lg"
               >
                 프로젝트 보기
-              </button>
-              <button 
-                onClick={() => scrollToSection('contact')}
-                className="w-full sm:w-auto px-6 py-3 border border-neutral-700 rounded-full hover:border-blue-500 transition-all text-lg"
-              >
-                연락하기
               </button>
             </motion.div>
           </motion.div>

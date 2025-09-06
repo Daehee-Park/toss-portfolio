@@ -3,7 +3,7 @@ import { careerHistory, technicalExpertise, certificates, education } from '../.
 
 export default function About() {
     return (
-    <section className="min-h-screen py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8 bg-neutral-900/50">
+    <section id="about" className="min-h-screen py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8 bg-neutral-900/50">
         <motion.div 
           className="max-w-6xl mx-auto"
           initial={{ opacity: 0 }}
@@ -27,6 +27,7 @@ export default function About() {
               <div className="space-y-4 text-lg">
                 <p className="text-neutral-300">Birth: 1994</p>
                 <p className="text-neutral-300">Education: {education.university} {education.degree} ({education.year})</p>
+                <p className="text-neutral-300">Military: 병장 만기제대 (2014.08 ~ 2016.05)</p>
               </div>
             </motion.div>
 
