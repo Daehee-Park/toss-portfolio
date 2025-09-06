@@ -195,7 +195,7 @@ export const careerHistory = [
     },
     {
       period: "2019 ~ 2021",
-      role: "LG전자 LCM/기구구 개발팀",
+      role: "LG전자 LCM/기구 개발팀",
       description: "제품 개발 | 기계공학에서 소프트웨어로의 전환 시작"
     }
 ]
